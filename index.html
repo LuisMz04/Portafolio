@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Proyectos</title>
+    <link rel="stylesheet" href="less/style.less">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Luis Fernando Martinez Mejia</h1>
+            <img src="public/images/perfil.png" alt="Foto de Perfil">
+            <nav>
+                <ul>
+                    <li><a href="#sobremi">Sobre Mí</a></li>
+                    <li><a href="#proyectos">Mis Proyectos</a></li>
+                    <li><a href="#contactame">Contáctame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section id="sobremi">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Soy Luis Fernando Martínez Mejía, un apasionado ingeniero en sistemas con un enfoque destacado en el desarrollo de aplicaciones web y móviles. Desde mis primeros pasos en la programación hasta mi formación académica en la Universidad Católica de Honduras, he dedicado mi carrera a convertir ideas en soluciones digitales innovadoras.
+
+                En este espacio, podrás explorar mis proyectos más recientes, desde aplicaciones de escritorio hasta complejas aplicaciones web y móviles. Cada proyecto no solo refleja mi habilidad técnica, sino también mi compromiso con la calidad y la excelencia.</p>
+            <hr>
+            <section>
+                <h3>Educación</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Grado</th>
+                            <th>Institución</th>
+                            <th>Título</th>
+                            <th>Año</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Primaria</td>
+                            <td>Escuela Primaria</td>
+                            <td>Primaria</td>
+                            <td>2000</td>
+                        </tr>
+                        <tr>
+                            <td>Secundaria</td>
+                            <td>Instituto Oscar Cardenal Rodriguez</td>
+                            <td>Bachiller en Ciencias y Letras</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>Universidad</td>
+                            <td>Universidad Católica de Honduras</td>
+                            <td>Ingeniería en Sistemas</td>
+                            <td>2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+        
+        <section id="proyectos">
+            <h2>Proyectos Realizados</h2>
+            <section>
+                <h3>Aplicaciones de Escritorio</h3>
+                <div class="proyecto">
+                    <div class="card">
+                        <img src="public/images/market.png" alt="Imagen del Proyecto">
+                        <h4>Sistema Supermercado</h4>
+                        <p>Desarrollo de un sistema para un supermercado</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h3>Sitios Web</h3>
+                <div class="proyecto">
+                    <div class="card">
+                        <img src="public/images/building.png" alt="Imagen del Proyecto">
+                        <h4>Sitio Web Corporativo</h4>
+                        <p>Diseño y desarrollo de un sitio web moderno para una empresa.</p>
+                    </div>
+                    <div class="card">
+                        <img src="public/images/blog.png" alt="Imagen del Proyecto">
+                        <h4>Blog Personal</h4>
+                        <p>Creación de un blog personalizado con funcionalidades avanzadas.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h3>Web Apps</h3>
+                <div class="proyecto">
+                    <div class="card">
+                        <img src="public/images/app.png" alt="Imagen del Proyecto">
+                        <h4>Proyecto Web App</h4>
+                        <p>Desarrollo de una aplicación web interactiva para gestión de tareas.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h3>Mobile Apps</h3>
+                <div class="proyecto">
+                    <div class="card">
+                        <img src="public/images/development.png" alt="Imagen del Proyecto">
+                        <h4>Proyecto Móvil</h4>
+                        <p>Desarrollo de una app móvil para Android e iOS enfocada en la salud.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+        <section id="contactame">
+            <h2>Contáctame</h2>
+            <form action="index.html" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required placeholder="Nombre completo">
+                
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo" id="correo" required>
+                
+                <label for="birthdate">Fecha de Nacimiento:</label>
+                <input type="date" name="birthdate" id="birthdate" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Luis Martinez - Todos los derechos reservados</p>
+        </div>
+        
+        <div class="container">
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>
